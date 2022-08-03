@@ -1,2 +1,3 @@
-import { Express } from "express"; 
-import { CorsOptions } from "cors";
+export const getPosts = (req,res) =>{
+    res.send("THIS WORKS");
+}
